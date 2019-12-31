@@ -31,10 +31,19 @@ const connection = mysql.createConnection({
   // ssl: { ca: fs.readFileSync({ ca- cert filename }) }
 });
 
+// const connection = mysql.createConnection({
+//   host: 'localhost',
+//   user: 'root',
+//   password: '',
+//   // database: DATABASE,
+//   // port: DB_PORT,
+//   // ssl: { ca: fs.readFileSync({ ca- cert filename }) }
+// });
+
 // create connection
 connection.connect((err) => {
   if (err) throw err;
-  console.log(`Connected to database ${DATABASE}`);
+  console.log(`Connected to database ${DATABASE} on ${DB_PORT}`);
 });
 
 module.exports.connection = connection;
