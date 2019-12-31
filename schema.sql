@@ -1,5 +1,7 @@
 /**
  * Execute this file from the command line by typing:
+    mysql -h wswe.mysql.database.azure.com -u wswe_admin@wswe -p < schema.sql
+    
  *   mysql -u root < schema.sql
     sudo mysql -u root < schema.sql
  */
