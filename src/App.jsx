@@ -213,6 +213,8 @@ class App extends React.Component {
       groupName,
       pricePoint,
       userName: user,
+    }).then(() => {
+      console.log('added');
     })
       .catch(() => {
         this.toggleDialog();
