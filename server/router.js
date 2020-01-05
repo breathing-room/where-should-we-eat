@@ -389,6 +389,7 @@ router.get('/choices', (req, res) => {
     .then((response) => {
       // response contains array of businesses (restaurants.businesses)
       // and the original lat/lng of request (restaurants.region.center)
+      res.status(200);
       res.send(response.data);
     })
     .catch(() => {
