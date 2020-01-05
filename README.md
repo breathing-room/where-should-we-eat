@@ -41,7 +41,7 @@ Follow the commands in the [Google Docs](https://cloud.google.com/sql/docs/mysql
 
 Ask a Motivated Marsupial for the content of the `where-should-we--1577491661730-acd310b40639.json` file. Save a copy as a file with this exact name in your root directory.
 
-Copy this file's path and save that path as the value of the GOOGLE_APPLICATION_CREDENTIALS variable in `.env`.
+Copy this file's absolute path and save that path as the value of the GOOGLE_APPLICATION_CREDENTIALS variable in `.env`.
 
 Run the CONNECTION SHELL command from the `.env` file to create a connection to the Cloud SQL db. If prompted for a password, enter the DB_PASS from `.env`. Keep this terminal open while working with the database.
 
