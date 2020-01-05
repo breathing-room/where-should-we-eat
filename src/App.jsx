@@ -27,20 +27,20 @@ const userImages = {
   sugarGlider: 'https://cdn.discordapp.com/attachments/635332255178424335/661017398068903937/image0.jpg',
 
 };
-const options = [{
-  name: 'Four Barrel Rum',
-  rating: 8,
-  price: '$$',
-  phone: '+14152520800',
-  address: '375 Valencia St',
-},
-{
-  name: 'Four Barrel Coffee',
-  rating: 4,
-  price: '$',
-  phone: '+14152520800',
-  address: '375 Amadee St',
-}];
+// const options = [{
+//   name: 'Four Barrel Rum',
+//   rating: 8,
+//   price: '$$',
+//   phone: '+14152520800',
+//   address: '375 Valencia St',
+// },
+// {
+//   name: 'Four Barrel Coffee',
+//   rating: 4,
+//   price: '$',
+//   phone: '+14152520800',
+//   address: '375 Amadee St',
+// }];
 class App extends React.Component {
   constructor(props) {
     super(props);
